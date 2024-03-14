@@ -1,0 +1,70 @@
+.main-content, .left-sidebar, .right-sidebar { padding-top: 0; }
+
+/* pages */
+.bg-gray { background-color: #f4f4f4; }
+h1, h2, h3, h4, h5, h6, #footer p, .btn { letter-spacing: -.025em; }
+.btn-modern, .btn-borders { border-radius: .5em; }
+hr { min-width: 40px; }
+.section-flex-wrap .elementor-container, .section-flex-wrap .elementor-row { flex-wrap: wrap }
+.porto-ibanner .porto-ibanner-desc { color: inherit; }
+.vc_btn3.vc_btn3-shape-rounded { border-radius: .5em; }
+.position-static > .elementor-column-wrap, .position-static > .elementor-column-wrap > .elementor-widget-wrap { position: inherit; }
+.has-absolute .elementor-container { position: static; }
+.form-filter { display: flex; flex-wrap: wrap; width: calc(100% + 1.25rem); }
+.form-filter select { width: calc(25% - 1.25rem); height: 4rem; border: none; border-radius: 2rem; padding-left: 1.5rem; letter-spacing: -.025em; box-shadow: none !important; text-transform: capitalize; margin-bottom: 1.25rem; margin-right: 1.25rem; }
+.form-filter select:nth-child(2) { width: calc(33.3333% - 1.25rem); }
+.form-filter .btn-submit { width: calc(16.6666% - 1.25rem); margin-top: 0; margin-bottom: 1.25rem; height: 4rem; font-size: .875rem; font-weight: 700; letter-spacing: -.025em; border-radius: .6em; }
+@media (max-width: 991px) {
+    .form-filter select, .form-filter select:nth-child(2), .form-filter .btn-submit { width: calc(50% - 1.25rem); }
+}
+@media (max-width: 480px) {
+    .form-filter select, .form-filter select:nth-child(2), .form-filter .btn-submit { width: calc(100% - 1.25rem); }
+}
+.owl-carousel.nav-style-4 .owl-nav [class*="owl-"] { font-weight: 900; }
+.owl-carousel .owl-dots .owl-dot span { width: 12px; height: 12px; background: none; border: 1px solid #222529; margin: 4px; }
+.owl-carousel .owl-dots .owl-dot.active span, .owl-carousel .owl-dots .owl-dot:hover span { background: #222529; }
+.products-slider.owl-carousel .owl-dot:hover span:after, .products-slider.owl-carousel .owl-dot.active span:after { content: none; }
+
+/* home */
+@keyframes customLineAnim {
+  from { stroke-dasharray: 1600; stroke-dashoffset: 1600; }
+  to { stroke-dasharray: 2500; stroke-dashoffset: 1600; }
+}
+.customLineAnim { stroke-dasharray: 1600; stroke-dashoffset: 1600; }
+.appear-animation-visible .customLineAnim, .animated .customLineAnim, .owl-item.active .customLineAnim { animation-name: customLineAnim; }
+
+/* shop */
+@media (min-width: 768px) {
+    li.product-category .thumb-info { padding-left: 9%; padding-right: 9%; }
+}
+li.product-category .thumb-info-wrapper:after { content: ''; position: absolute; border: 2px solid #e7e7e7; display: block; width: 72%; height: 72%; top: 50%; left: 50%; border-radius: 1rem; transform: translate(-50%, -50%) rotate(45deg); z-index: 1; }
+ul.products.category-pos-outside li.product-category .thumb-info-title { display: flex; flex-direction: column; }
+li.product-category .sub-categories { font-size: .8125rem; letter-spacing: .005em; order: 1; margin: .75rem 0 0; }
+ul.products li.product-category .thumb-info h3 { font-size: 1.25rem; letter-spacing: -.025em; text-transform: none; }
+.products-list .product-inner { display: -ms-flexbox; display: flex; -ms-flex-align: center; align-items: center; }
+.products-list .list li.product .product-image { flex: 0 0 42%; max-width: 42%; margin: 0; padding-right: 15px; }
+.products-list .list li.product .product-content { flex: 0 0 58%; max-width: 58%; }
+.products-list .add-links-wrap, .products-list li.product .description, .products-list .product-image .labels, .products-list .yith-wcwl-add-to-wishlist { display: none !important; }
+.products-list .list li.product h3 { font-size: .9375rem; font-weight: 400; }
+
+@media (prefers-reduced-motion:no-preference) {
+    :root {
+        scroll-behavior: smooth;
+        -webkit-scroll-behavior: smooth; /* For Safari */
+    }
+}
+.rc-image-tile-target {
+    -webkit-text-emphasis-color: rgba(0,0,0,0); /* For webkit browsers */
+    text-emphasis-color: rgba(0,0,0,0); /* Standard property */
+}
+.cky-btn-revisit-wrapper .cky-btn-revisit img {
+    max-width: fit-content;
+    max-width: -moz-fit-content; /* For Firefox */
+}
+body {
+    -webkit-text-size-adjust: 100%;
+    text-size-adjust: 100%;
+}
+.footer a:not(.btn), .footer .tooltip-icon {
+    color: #fff;
+}

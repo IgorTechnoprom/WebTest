@@ -1,0 +1,122 @@
+.sidebar-content {
+	padding: 8px;
+}
+.bapf_button {
+	border-radius: 5px;
+}
+
+.product-inner{
+	margin-bottom: 16px;
+}
+
+.price{
+	margin-bottom: 4px !important;
+}
+
+.add-links-wrap{
+	display: none;
+}
+.current_page_item a, .current-menu-item a {
+    border-bottom: 4px solid;
+}
+
+.elementor-nothing-found::before{
+	content: "Nema pronađenih proizvoda.";
+	visibility: visible;
+}
+
+.elementor-nothing-found{
+	visibility: hidden;
+}
+
+.btn-readmore::before{
+		content: "PROČITAJ VIŠE +";
+	visibility: visible;
+}
+
+.btn-readmore{
+	visibility: hidden;
+}
+
+.related-posts > h4{
+	visibility: hidden;
+}
+
+.related-posts > h4::before{
+			content: "Povezane Objave";
+	visibility: visible;
+}
+
+.read-more{
+	visibility: hidden;
+}
+
+.read-more::before{
+			content: "Pročitaj više >";
+	visibility: visible;
+}
+.woocommerce-mini-cart__empty-message{
+	visibility: hidden;
+}
+
+.woocommerce-mini-cart__empty-message::before{
+			content: "Nema proizvoda u košarici.";
+	visibility: visible;
+}
+
+.quickview:before{
+	text-align: center;
+	cursor: pointer;
+}
+.dir-arrow{
+	visibility: hidden;
+}
+
+.eur_price {
+    color: #000;
+    font-size: 24px;
+    font-weight: bold;
+    display: block;
+}
+.eur_sale_price{
+    color: #C90F10;
+    font-size: 16px;
+    font-weight: bold;
+}
+.hrk_price{
+    color: #C90F10;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.daily-deal-title{
+	visibility: hidden;
+}
+ul.products .woocommerce-loop-product__title {
+    white-space: normal;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.woocommerce-store-notice__dismiss-link{
+    color: #f6ff00;
+    text-decoration: none;
+	  font-weight:bold;
+}
+body {
+    -webkit-text-size-adjust: 100%;
+    text-size-adjust: 100%;
+}
+.cky-btn-revisit-wrapper .cky-btn-revisit img {
+    max-width: fit-content;
+    max-width: -moz-fit-content; /* For Firefox */
+}
+.rc-image-tile-target {
+    -webkit-tap-highlight-color: rgba(0,0,0,0); /* For webkit browsers */
+    -webkit-text-fill-color: rgba(0,0,0,0); /* Standard property */
+}
+@media (prefers-reduced-motion:no-preference) {
+    :root {
+        scroll-behavior: smooth;
+        -webkit-scroll-behavior: smooth; /* For Safari */
+    }
+}
