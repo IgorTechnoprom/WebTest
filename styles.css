@@ -1,0 +1,7 @@
+iframe {
+    width: 1px;
+    min-width: 100%;
+  }
+#myIframe{
+    margin: 20px;
+}
